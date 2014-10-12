@@ -30,4 +30,12 @@
     destination.name = self.nameTextField.text;
 }
 
+- (BOOL)shouldPerformSegueWithIdentifier:(NSString *)identifier sender:(id)sender {
+    if ([self.nameTextField.text isEqual:@""]) {
+        return NO;
+    } else {
+        return YES;
+    }
+}
+
 @end

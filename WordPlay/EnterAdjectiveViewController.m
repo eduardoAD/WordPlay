@@ -31,4 +31,12 @@
     destination.adjective = self.adjectiveTextField.text;
 }
 
+- (BOOL)shouldPerformSegueWithIdentifier:(NSString *)identifier sender:(id)sender {
+    if ([self.adjectiveTextField.text isEqual:@""]) {
+        return NO;
+    } else {
+        return YES;
+    }
+}
+
 @end
