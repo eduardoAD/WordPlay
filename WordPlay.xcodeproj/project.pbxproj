@@ -1,0 +1,427 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E45E010019EA1978004ADB12 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E45E00FF19EA1978004ADB12 /* main.m */; };
+		E45E010319EA1978004ADB12 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E45E010219EA1978004ADB12 /* AppDelegate.m */; };
+		E45E010619EA1978004ADB12 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E45E010519EA1978004ADB12 /* ViewController.m */; };
+		E45E010919EA1978004ADB12 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E45E010719EA1978004ADB12 /* Main.storyboard */; };
+		E45E010B19EA1978004ADB12 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E45E010A19EA1978004ADB12 /* Images.xcassets */; };
+		E45E010E19EA1978004ADB12 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E45E010C19EA1978004ADB12 /* LaunchScreen.xib */; };
+		E45E011A19EA1978004ADB12 /* WordPlayTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E45E011919EA1978004ADB12 /* WordPlayTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E45E011419EA1978004ADB12 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E45E00F219EA1978004ADB12 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E45E00F919EA1978004ADB12;
+			remoteInfo = WordPlay;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E45E00FA19EA1978004ADB12 /* WordPlay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WordPlay.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E45E00FE19EA1978004ADB12 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E45E00FF19EA1978004ADB12 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E45E010119EA1978004ADB12 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E45E010219EA1978004ADB12 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E45E010419EA1978004ADB12 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E45E010519EA1978004ADB12 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E45E010819EA1978004ADB12 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E45E010A19EA1978004ADB12 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		E45E010D19EA1978004ADB12 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		E45E011319EA1978004ADB12 /* WordPlayTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WordPlayTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E45E011819EA1978004ADB12 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E45E011919EA1978004ADB12 /* WordPlayTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WordPlayTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E45E00F719EA1978004ADB12 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E45E011019EA1978004ADB12 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E45E00F119EA1978004ADB12 = {
+			isa = PBXGroup;
+			children = (
+				E45E00FC19EA1978004ADB12 /* WordPlay */,
+				E45E011619EA1978004ADB12 /* WordPlayTests */,
+				E45E00FB19EA1978004ADB12 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E45E00FB19EA1978004ADB12 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E45E00FA19EA1978004ADB12 /* WordPlay.app */,
+				E45E011319EA1978004ADB12 /* WordPlayTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E45E00FC19EA1978004ADB12 /* WordPlay */ = {
+			isa = PBXGroup;
+			children = (
+				E45E010119EA1978004ADB12 /* AppDelegate.h */,
+				E45E010219EA1978004ADB12 /* AppDelegate.m */,
+				E45E010419EA1978004ADB12 /* ViewController.h */,
+				E45E010519EA1978004ADB12 /* ViewController.m */,
+				E45E010719EA1978004ADB12 /* Main.storyboard */,
+				E45E010A19EA1978004ADB12 /* Images.xcassets */,
+				E45E010C19EA1978004ADB12 /* LaunchScreen.xib */,
+				E45E00FD19EA1978004ADB12 /* Supporting Files */,
+			);
+			path = WordPlay;
+			sourceTree = "<group>";
+		};
+		E45E00FD19EA1978004ADB12 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E45E00FE19EA1978004ADB12 /* Info.plist */,
+				E45E00FF19EA1978004ADB12 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E45E011619EA1978004ADB12 /* WordPlayTests */ = {
+			isa = PBXGroup;
+			children = (
+				E45E011919EA1978004ADB12 /* WordPlayTests.m */,
+				E45E011719EA1978004ADB12 /* Supporting Files */,
+			);
+			path = WordPlayTests;
+			sourceTree = "<group>";
+		};
+		E45E011719EA1978004ADB12 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E45E011819EA1978004ADB12 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E45E00F919EA1978004ADB12 /* WordPlay */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E45E011D19EA1978004ADB12 /* Build configuration list for PBXNativeTarget "WordPlay" */;
+			buildPhases = (
+				E45E00F619EA1978004ADB12 /* Sources */,
+				E45E00F719EA1978004ADB12 /* Frameworks */,
+				E45E00F819EA1978004ADB12 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WordPlay;
+			productName = WordPlay;
+			productReference = E45E00FA19EA1978004ADB12 /* WordPlay.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E45E011219EA1978004ADB12 /* WordPlayTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E45E012019EA1978004ADB12 /* Build configuration list for PBXNativeTarget "WordPlayTests" */;
+			buildPhases = (
+				E45E010F19EA1978004ADB12 /* Sources */,
+				E45E011019EA1978004ADB12 /* Frameworks */,
+				E45E011119EA1978004ADB12 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E45E011519EA1978004ADB12 /* PBXTargetDependency */,
+			);
+			name = WordPlayTests;
+			productName = WordPlayTests;
+			productReference = E45E011319EA1978004ADB12 /* WordPlayTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E45E00F219EA1978004ADB12 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = Globant;
+				TargetAttributes = {
+					E45E00F919EA1978004ADB12 = {
+						CreatedOnToolsVersion = 6.0.1;
+					};
+					E45E011219EA1978004ADB12 = {
+						CreatedOnToolsVersion = 6.0.1;
+						TestTargetID = E45E00F919EA1978004ADB12;
+					};
+				};
+			};
+			buildConfigurationList = E45E00F519EA1978004ADB12 /* Build configuration list for PBXProject "WordPlay" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E45E00F119EA1978004ADB12;
+			productRefGroup = E45E00FB19EA1978004ADB12 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E45E00F919EA1978004ADB12 /* WordPlay */,
+				E45E011219EA1978004ADB12 /* WordPlayTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E45E00F819EA1978004ADB12 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E45E010919EA1978004ADB12 /* Main.storyboard in Resources */,
+				E45E010E19EA1978004ADB12 /* LaunchScreen.xib in Resources */,
+				E45E010B19EA1978004ADB12 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E45E011119EA1978004ADB12 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E45E00F619EA1978004ADB12 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E45E010619EA1978004ADB12 /* ViewController.m in Sources */,
+				E45E010319EA1978004ADB12 /* AppDelegate.m in Sources */,
+				E45E010019EA1978004ADB12 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E45E010F19EA1978004ADB12 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E45E011A19EA1978004ADB12 /* WordPlayTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E45E011519EA1978004ADB12 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E45E00F919EA1978004ADB12 /* WordPlay */;
+			targetProxy = E45E011419EA1978004ADB12 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E45E010719EA1978004ADB12 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E45E010819EA1978004ADB12 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E45E010C19EA1978004ADB12 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E45E010D19EA1978004ADB12 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E45E011B19EA1978004ADB12 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E45E011C19EA1978004ADB12 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E45E011E19EA1978004ADB12 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WordPlay/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E45E011F19EA1978004ADB12 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WordPlay/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		E45E012119EA1978004ADB12 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = WordPlayTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WordPlay.app/WordPlay";
+			};
+			name = Debug;
+		};
+		E45E012219EA1978004ADB12 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = WordPlayTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WordPlay.app/WordPlay";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E45E00F519EA1978004ADB12 /* Build configuration list for PBXProject "WordPlay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E45E011B19EA1978004ADB12 /* Debug */,
+				E45E011C19EA1978004ADB12 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E45E011D19EA1978004ADB12 /* Build configuration list for PBXNativeTarget "WordPlay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E45E011E19EA1978004ADB12 /* Debug */,
+				E45E011F19EA1978004ADB12 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E45E012019EA1978004ADB12 /* Build configuration list for PBXNativeTarget "WordPlayTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E45E012119EA1978004ADB12 /* Debug */,
+				E45E012219EA1978004ADB12 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E45E00F219EA1978004ADB12 /* Project object */;
+}
