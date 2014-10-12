@@ -14,6 +14,7 @@
 		E45E010B19EA1978004ADB12 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E45E010A19EA1978004ADB12 /* Images.xcassets */; };
 		E45E010E19EA1978004ADB12 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E45E010C19EA1978004ADB12 /* LaunchScreen.xib */; };
 		E45E011A19EA1978004ADB12 /* WordPlayTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E45E011919EA1978004ADB12 /* WordPlayTests.m */; };
+		E45E012519EA4C5B004ADB12 /* EnterNameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E45E012419EA4C5B004ADB12 /* EnterNameViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		E45E011319EA1978004ADB12 /* WordPlayTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WordPlayTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E45E011819EA1978004ADB12 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E45E011919EA1978004ADB12 /* WordPlayTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WordPlayTests.m; sourceTree = "<group>"; };
+		E45E012319EA4C5B004ADB12 /* EnterNameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EnterNameViewController.h; sourceTree = "<group>"; };
+		E45E012419EA4C5B004ADB12 /* EnterNameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EnterNameViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +89,8 @@
 				E45E010419EA1978004ADB12 /* ViewController.h */,
 				E45E010519EA1978004ADB12 /* ViewController.m */,
 				E45E010719EA1978004ADB12 /* Main.storyboard */,
+				E45E012319EA4C5B004ADB12 /* EnterNameViewController.h */,
+				E45E012419EA4C5B004ADB12 /* EnterNameViewController.m */,
 				E45E010A19EA1978004ADB12 /* Images.xcassets */,
 				E45E010C19EA1978004ADB12 /* LaunchScreen.xib */,
 				E45E00FD19EA1978004ADB12 /* Supporting Files */,
@@ -221,6 +226,7 @@
 			files = (
 				E45E010619EA1978004ADB12 /* ViewController.m in Sources */,
 				E45E010319EA1978004ADB12 /* AppDelegate.m in Sources */,
+				E45E012519EA4C5B004ADB12 /* EnterNameViewController.m in Sources */,
 				E45E010019EA1978004ADB12 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
