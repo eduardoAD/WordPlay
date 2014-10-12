@@ -10,5 +10,7 @@
 
 @interface ResultsViewController : UIViewController
 @property (strong, nonatomic) NSString *name;
+@property (strong, nonatomic) NSString *otherName;
 @property (strong, nonatomic) NSString *adjective;
+@property (strong, nonatomic) NSString *otherAdjective;
 @end

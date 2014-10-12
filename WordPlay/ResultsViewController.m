@@ -17,7 +17,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.resultsTextView.text = [NSString stringWithFormat:@"One day %@ was walking through the forest when suddenly a %@ animal appeared, who had a way never seen before.", self.name, self.adjective];
+    self.resultsTextView.text = [NSString stringWithFormat:@"One day %@ and %@ were walking through the forest when suddenly a %@ animal appeared, who live in a %@ house.", self.name, self.otherName, self.adjective, self.otherAdjective];
 }
 
 - (void)didReceiveMemoryWarning {

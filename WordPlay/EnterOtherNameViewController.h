@@ -1,5 +1,5 @@
 //
-//  EnterAdjectiveViewController.h
+//  EnterOtherNameViewController.h
 //  WordPlay
 //
 //  Created by Eduardo Alvarado Díaz on 10/12/14.
@@ -8,7 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface EnterAdjectiveViewController : UIViewController
+@interface EnterOtherNameViewController : UIViewController
 @property (strong, nonatomic) NSString *name;
-@property (strong, nonatomic) NSString *otherName;
 @end

@@ -17,6 +17,8 @@
 		E45E012519EA4C5B004ADB12 /* EnterNameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E45E012419EA4C5B004ADB12 /* EnterNameViewController.m */; };
 		E45E012819EA4E1B004ADB12 /* EnterAdjectiveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E45E012719EA4E1B004ADB12 /* EnterAdjectiveViewController.m */; };
 		E45E012B19EA4F50004ADB12 /* ResultsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E45E012A19EA4F50004ADB12 /* ResultsViewController.m */; };
+		E45E012E19EA6C5E004ADB12 /* EnterOtherNameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E45E012D19EA6C5E004ADB12 /* EnterOtherNameViewController.m */; };
+		E45E013119EA6CCE004ADB12 /* EnterOtherAdjectiveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E45E013019EA6CCE004ADB12 /* EnterOtherAdjectiveViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,10 @@
 		E45E012719EA4E1B004ADB12 /* EnterAdjectiveViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EnterAdjectiveViewController.m; sourceTree = "<group>"; };
 		E45E012919EA4F50004ADB12 /* ResultsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResultsViewController.h; sourceTree = "<group>"; };
 		E45E012A19EA4F50004ADB12 /* ResultsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResultsViewController.m; sourceTree = "<group>"; };
+		E45E012C19EA6C5E004ADB12 /* EnterOtherNameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EnterOtherNameViewController.h; sourceTree = "<group>"; };
+		E45E012D19EA6C5E004ADB12 /* EnterOtherNameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EnterOtherNameViewController.m; sourceTree = "<group>"; };
+		E45E012F19EA6CCE004ADB12 /* EnterOtherAdjectiveViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EnterOtherAdjectiveViewController.h; sourceTree = "<group>"; };
+		E45E013019EA6CCE004ADB12 /* EnterOtherAdjectiveViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EnterOtherAdjectiveViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +107,10 @@
 				E45E012719EA4E1B004ADB12 /* EnterAdjectiveViewController.m */,
 				E45E012319EA4C5B004ADB12 /* EnterNameViewController.h */,
 				E45E012419EA4C5B004ADB12 /* EnterNameViewController.m */,
+				E45E012C19EA6C5E004ADB12 /* EnterOtherNameViewController.h */,
+				E45E012D19EA6C5E004ADB12 /* EnterOtherNameViewController.m */,
+				E45E012F19EA6CCE004ADB12 /* EnterOtherAdjectiveViewController.h */,
+				E45E013019EA6CCE004ADB12 /* EnterOtherAdjectiveViewController.m */,
 				E45E010A19EA1978004ADB12 /* Images.xcassets */,
 				E45E010C19EA1978004ADB12 /* LaunchScreen.xib */,
 				E45E00FD19EA1978004ADB12 /* Supporting Files */,
@@ -235,8 +245,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				E45E010619EA1978004ADB12 /* ViewController.m in Sources */,
+				E45E012E19EA6C5E004ADB12 /* EnterOtherNameViewController.m in Sources */,
 				E45E010319EA1978004ADB12 /* AppDelegate.m in Sources */,
 				E45E012819EA4E1B004ADB12 /* EnterAdjectiveViewController.m in Sources */,
+				E45E013119EA6CCE004ADB12 /* EnterOtherAdjectiveViewController.m in Sources */,
 				E45E012B19EA4F50004ADB12 /* ResultsViewController.m in Sources */,
 				E45E012519EA4C5B004ADB12 /* EnterNameViewController.m in Sources */,
 				E45E010019EA1978004ADB12 /* main.m in Sources */,

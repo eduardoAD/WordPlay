@@ -7,7 +7,7 @@
 //
 
 #import "EnterNameViewController.h"
-#import "EnterAdjectiveViewController.h"
+#import "EnterOtherNameViewController.h"
 
 @interface EnterNameViewController ()
 @property (strong, nonatomic) IBOutlet UITextField *nameTextField;
@@ -26,7 +26,7 @@
 
 #pragma mark - Navigation
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    EnterAdjectiveViewController *destination = [segue destinationViewController];
+    EnterOtherNameViewController *destination = [segue destinationViewController];
     destination.name = self.nameTextField.text;
 }
 
