@@ -9,5 +9,5 @@
 #import <UIKit/UIKit.h>
 
 @interface EnterAdjectiveViewController : UIViewController
-
+@property (strong, nonatomic) NSString *name;
 @end
