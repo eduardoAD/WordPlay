@@ -16,6 +16,7 @@
 		E45E011A19EA1978004ADB12 /* WordPlayTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E45E011919EA1978004ADB12 /* WordPlayTests.m */; };
 		E45E012519EA4C5B004ADB12 /* EnterNameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E45E012419EA4C5B004ADB12 /* EnterNameViewController.m */; };
 		E45E012819EA4E1B004ADB12 /* EnterAdjectiveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E45E012719EA4E1B004ADB12 /* EnterAdjectiveViewController.m */; };
+		E45E012B19EA4F50004ADB12 /* ResultsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E45E012A19EA4F50004ADB12 /* ResultsViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +47,8 @@
 		E45E012419EA4C5B004ADB12 /* EnterNameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EnterNameViewController.m; sourceTree = "<group>"; };
 		E45E012619EA4E1B004ADB12 /* EnterAdjectiveViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EnterAdjectiveViewController.h; sourceTree = "<group>"; };
 		E45E012719EA4E1B004ADB12 /* EnterAdjectiveViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EnterAdjectiveViewController.m; sourceTree = "<group>"; };
+		E45E012919EA4F50004ADB12 /* ResultsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResultsViewController.h; sourceTree = "<group>"; };
+		E45E012A19EA4F50004ADB12 /* ResultsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResultsViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +95,8 @@
 				E45E010419EA1978004ADB12 /* ViewController.h */,
 				E45E010519EA1978004ADB12 /* ViewController.m */,
 				E45E010719EA1978004ADB12 /* Main.storyboard */,
+				E45E012919EA4F50004ADB12 /* ResultsViewController.h */,
+				E45E012A19EA4F50004ADB12 /* ResultsViewController.m */,
 				E45E012619EA4E1B004ADB12 /* EnterAdjectiveViewController.h */,
 				E45E012719EA4E1B004ADB12 /* EnterAdjectiveViewController.m */,
 				E45E012319EA4C5B004ADB12 /* EnterNameViewController.h */,
@@ -232,6 +237,7 @@
 				E45E010619EA1978004ADB12 /* ViewController.m in Sources */,
 				E45E010319EA1978004ADB12 /* AppDelegate.m in Sources */,
 				E45E012819EA4E1B004ADB12 /* EnterAdjectiveViewController.m in Sources */,
+				E45E012B19EA4F50004ADB12 /* ResultsViewController.m in Sources */,
 				E45E012519EA4C5B004ADB12 /* EnterNameViewController.m in Sources */,
 				E45E010019EA1978004ADB12 /* main.m in Sources */,
 			);
