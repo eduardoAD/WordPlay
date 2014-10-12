@@ -56,7 +56,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="727" y="-557"/>
+            <point key="canvasLocation" x="715.5" y="-557"/>
         </scene>
         <!--Enter Name View Controller-->
         <scene sceneID="q42-K3-Cnw">
@@ -67,6 +67,7 @@
                         <viewControllerLayoutGuide type="bottom" id="ecT-o2-eES"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="sYD-yz-XJj">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Enter a name" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EsM-hF-FXu">
@@ -121,7 +122,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="zu7-fK-Tdw" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1204" y="-557"/>
+            <point key="canvasLocation" x="1480.5" y="-557"/>
         </scene>
         <!--Enter Adjective View Controller-->
         <scene sceneID="uwv-18-Ofs">
@@ -132,6 +133,7 @@
                         <viewControllerLayoutGuide type="bottom" id="Fnx-8f-y9f"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="wzb-1Q-NdN">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Enter an adjective" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WZA-MG-dUX">
@@ -186,7 +188,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ZMi-Rr-aBy" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1691" y="-557"/>
+            <point key="canvasLocation" x="2233.5" y="-557"/>
         </scene>
         <!--Results View Controller-->
         <scene sceneID="B5B-iy-CoR">
@@ -197,42 +199,60 @@
                         <viewControllerLayoutGuide type="bottom" id="19P-pi-9Gj"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="qKf-rz-7j9">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="OqJ-tH-PVU">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OqJ-tH-PVU">
                                 <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </string>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="v8j-YT-g6c">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <state key="normal" title="Star Over">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="xnw-oQ-LKP" kind="unwind" unwindAction="unwindSegue:" id="gJN-kq-W9N"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstAttribute="trailing" secondItem="OqJ-tH-PVU" secondAttribute="trailing" id="M4O-2D-YIT"/>
                             <constraint firstItem="OqJ-tH-PVU" firstAttribute="top" secondItem="dUL-q5-BYC" secondAttribute="bottom" id="O08-XR-iA2"/>
+                            <constraint firstAttribute="centerX" secondItem="v8j-YT-g6c" secondAttribute="centerX" id="TJ7-I2-cO4"/>
                             <constraint firstItem="19P-pi-9Gj" firstAttribute="top" secondItem="OqJ-tH-PVU" secondAttribute="bottom" id="aSj-mO-xt1"/>
                             <constraint firstItem="OqJ-tH-PVU" firstAttribute="leading" secondItem="qKf-rz-7j9" secondAttribute="leading" id="fBy-si-Rip"/>
+                            <constraint firstAttribute="centerY" secondItem="v8j-YT-g6c" secondAttribute="centerY" id="fDW-Ew-ERX"/>
                         </constraints>
                         <variation key="default">
                             <mask key="subviews">
                                 <exclude reference="OqJ-tH-PVU"/>
+                                <exclude reference="v8j-YT-g6c"/>
                             </mask>
                             <mask key="constraints">
                                 <exclude reference="M4O-2D-YIT"/>
                                 <exclude reference="O08-XR-iA2"/>
                                 <exclude reference="fBy-si-Rip"/>
+                                <exclude reference="TJ7-I2-cO4"/>
+                                <exclude reference="fDW-Ew-ERX"/>
                                 <exclude reference="aSj-mO-xt1"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
                             <mask key="subviews">
                                 <include reference="OqJ-tH-PVU"/>
+                                <include reference="v8j-YT-g6c"/>
                             </mask>
                             <mask key="constraints">
                                 <include reference="M4O-2D-YIT"/>
                                 <include reference="O08-XR-iA2"/>
                                 <include reference="fBy-si-Rip"/>
+                                <include reference="TJ7-I2-cO4"/>
+                                <include reference="fDW-Ew-ERX"/>
                                 <include reference="aSj-mO-xt1"/>
                             </mask>
                         </variation>
@@ -242,8 +262,9 @@
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="OMZ-Ka-6JA" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <exit id="xnw-oQ-LKP" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
-            <point key="canvasLocation" x="2175" y="-557"/>
+            <point key="canvasLocation" x="2992.5" y="-557"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="J43-Xu-PqB">
@@ -261,7 +282,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hef-OD-XHF" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="238.5" y="-557"/>
+            <point key="canvasLocation" x="-13.5" y="-557"/>
         </scene>
     </scenes>
 </document>
